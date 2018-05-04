@@ -52,7 +52,7 @@ a:hover {
 .box-r {
   display: inline-block;
   width: 420px;
-  padding-right: 55px;
+  padding-right: 60px;
   margin: auto;
   height: 477px;
 }
@@ -61,7 +61,7 @@ a:hover {
   display: inline-block;
   width: 420px;
   margin: auto;
-
+  padding-left: 0px;
 }
 
 /* .box:nth-child(2n + 2) {
