@@ -9,6 +9,7 @@ body {
   width: 900px;
   margin: auto;
   padding-top: 77px;
+  align-content: center;
 }
 
 .site-navigation {
@@ -17,7 +18,7 @@ body {
   width: 624px;
   height: 42px;
   padding-bottom: 31px;
-  text-align: center;
+  padding-left: 0px;
 }
 
 .site-navigation a {
@@ -27,7 +28,10 @@ body {
   cursor: pointer;
   padding: 43px;
   padding-top: 0px;
-  display: inline-block;
+}
+
+.nav-box {
+  margin: auto;
 }
 
 a:hover {
@@ -57,7 +61,7 @@ a:hover {
   display: inline-block;
   width: 420px;
   margin: auto;
-  height: 477px;
+
 }
 
 /* .box:nth-child(2n + 2) {
@@ -80,10 +84,12 @@ a:hover {
 }
 
 .table {
-  display: block;
+  display: inline-block;
+  margin: center;
 }
 
 .post {
+  text-align: left;
   margin: auto;
   display: inline-block;
   margin-bottom: 132px;
