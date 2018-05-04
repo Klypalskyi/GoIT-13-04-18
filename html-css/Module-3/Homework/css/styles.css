@@ -19,6 +19,10 @@ body {
   height: 42px;
   padding-bottom: 31px;
   padding-left: 0px;
+<<<<<<< HEAD
+=======
+  text-align: center;
+>>>>>>> b65a3d0d31cfc1e16c18daa9aad882780a76aa19
 }
 
 .site-navigation a {
@@ -64,12 +68,6 @@ a:hover {
   padding-left: 0px;
 }
 
-/* .box:nth-child(2n + 2) {
-  margin-right: 0px;
-  padding-right: 0px;
-  margin: auto;
-}
- */
 .content-class {
   font-family: "Ubuntu", sans-serif;
   text-transform: uppercase;
