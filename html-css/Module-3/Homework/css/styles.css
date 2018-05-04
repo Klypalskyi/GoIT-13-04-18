@@ -49,7 +49,7 @@ a:hover {
 .box-r {
   display: inline-block;
   width: 420px;
-  padding-right: 55px;
+  padding-right: 60px;
   margin: auto;
   height: 477px;
 }
@@ -61,12 +61,6 @@ a:hover {
   height: 477px;
 }
 
-/* .box:nth-child(2n + 2) {
-  margin-right: 0px;
-  padding-right: 0px;
-  margin: auto;
-}
- */
 .content-class {
   font-family: "Ubuntu", sans-serif;
   text-transform: uppercase;
