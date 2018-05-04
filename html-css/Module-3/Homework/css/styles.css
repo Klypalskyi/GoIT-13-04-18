@@ -1,0 +1,117 @@
+body {
+  font-family: "Playfair Display", "Ubuntu", sans-serif;
+  color: rgb(98, 98, 98);
+  font-size: 14px;
+  line-height: 24px;
+  width: 1200px;
+  height: 100vh;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+  padding-top: 77px;
+}
+
+.site-navigation {
+  list-style: none;
+  margin: auto;
+  width: 624px;
+  height: 42px;
+  padding-bottom: 31px;
+  text-align: center;
+}
+
+.site-navigation a {
+  color: rgb(98, 98, 98);
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 43px;
+  padding-top: 0px;
+  display: inline-block;
+}
+
+a:hover {
+  color: rgb(3, 169, 244);
+}
+
+.navigation-link {
+  display: inline-block;
+  text-align: center;
+}
+
+.box-image {
+  height: 280px;
+  width: 420px;
+  margin: auto;
+}
+
+.box-r {
+  display: inline-block;
+  width: 420px;
+  padding-right: 55px;
+  margin: auto;
+  height: 477px;
+}
+
+.box {
+  display: inline-block;
+  width: 420px;
+  margin: auto;
+  height: 477px;
+}
+
+/* .box:nth-child(2n + 2) {
+  margin-right: 0px;
+  padding-right: 0px;
+  margin: auto;
+}
+ */
+.content-class {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  font-style: inherit;
+  color: #b4ad9e;
+  line-height: 17px;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.table {
+  display: block;
+}
+
+.post {
+  margin: auto;
+  display: inline-block;
+  margin-bottom: 132px;
+}
+
+.post-last {
+  margin-bottom: 0px;
+}
+
+button {
+  display: inline-block;
+  border-color: rgb(98, 98, 98);
+  background-color: #fff;
+  padding: 22px, 35px;
+  border-width: 1px;
+  margin-top: 57px;
+}
+
+button a {
+  text-align: center;
+  color: rgb(98, 98, 98);
+  text-decoration: none;
+  cursor: pointer;
+  padding: 22px;
+  line-height: 59px;
+}
+.button-block {
+  text-align: center;
+}
