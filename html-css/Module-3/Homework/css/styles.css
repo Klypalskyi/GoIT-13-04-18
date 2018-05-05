@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Playfair Display", "Ubuntu", sans-serif;
   color: rgb(98, 98, 98);
@@ -5,24 +11,18 @@ body {
   line-height: 24px;
 }
 
-.container {
+main {
   width: 900px;
   margin: auto;
-  padding-top: 77px;
-  align-content: center;
+  margin-top: 77px;
 }
 
-.site-navigation {
+nav {
   list-style: none;
   margin: auto;
   width: 624px;
-  height: 42px;
-  padding-bottom: 31px;
   padding-left: 0px;
-<<<<<<< HEAD
-=======
-  text-align: center;
->>>>>>> b65a3d0d31cfc1e16c18daa9aad882780a76aa19
+  margin-bottom: 97px;
 }
 
 .site-navigation a {
@@ -30,7 +30,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
-  padding: 43px;
+  padding: 0 43px;
   padding-top: 0px;
 }
 
@@ -51,14 +51,7 @@ a:hover {
   height: 280px;
   width: 420px;
   margin: auto;
-}
-
-.box-r {
-  display: inline-block;
-  width: 420px;
-  padding-right: 60px;
-  margin: auto;
-  height: 477px;
+  margin-bottom: 27px;
 }
 
 .box {
@@ -66,6 +59,15 @@ a:hover {
   width: 420px;
   margin: auto;
   padding-left: 0px;
+  vertical-align: top;
+}
+
+.box:nth-child(2n+1) {
+  margin-right: 55px
+}
+
+.box:nth-child(-n+4) {
+  margin-bottom: 135px;
 }
 
 .content-class {
@@ -74,27 +76,13 @@ a:hover {
   font-style: inherit;
   color: #b4ad9e;
   line-height: 17px;
+  margin-bottom: 20px;
 }
 
 .title {
   font-size: 30px;
   line-height: 36px;
-}
-
-.table {
-  display: inline-block;
-  margin: center;
-}
-
-.post {
-  text-align: left;
-  margin: auto;
-  display: inline-block;
-  margin-bottom: 132px;
-}
-
-.post-last {
-  margin-bottom: 0px;
+  margin-bottom: 31px;
 }
 
 button {
