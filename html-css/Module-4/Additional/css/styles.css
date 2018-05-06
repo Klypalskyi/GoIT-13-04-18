@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Задание 1 */
+.first-li {
+    float: left;
+    padding-left: 5px;
+    list-style: none;
+}
+
+.part1::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.first-li:hover {
+    color: indigo;
+    cursor: pointer;
+}
+
+/* Задание 2 */
+.second-li {
+    color: #0E1116;
+}
+
+.second-li:nth-child(3n+2) {
+    background-color: #88292F;
+}
+
+.second-li:nth-child(3n+3) {
+    background-color: #5DB7DE;
+}
+
+.second-li:nth-child(3n+1) {
+    background-color: #0D5D56;
+}
+
+/* Задание 3 */
+.second-li::before {
+    content: "\2192"
+}
+
+/* Задание 4 */
+.part4 {
+    counter-reset: count-box;
+    box-sizing: content-box;
+    text-align: center;
+}
+
+.third-li {
+    display: block;
+    list-style: none;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    counter-increment: count-box;
+}
+
+.third-li::before {
+    content: counter(count-box, upper-roman);
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    margin-right: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
