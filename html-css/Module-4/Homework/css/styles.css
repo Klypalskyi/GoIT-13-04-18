@@ -13,6 +13,8 @@ body {
   text-align: center;
 }
 
+
+/* HEADER */
 header {
   height: auto;
   overflow: hidden;
@@ -71,6 +73,8 @@ header {
   color: #1abc9c;
 }
 
+
+/* FEATURED */
 .featured-title {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
@@ -169,6 +173,8 @@ header {
   content: "\0024";
 }
 
+
+/* BLOG */
 .blog-title {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
@@ -187,6 +193,10 @@ header {
   margin: auto;
   margin-top: 32px;
   margin-bottom: 81px;
+}
+
+.blog-image {
+  margin-bottom: 15px;
 }
 
 .blog-list-item {
