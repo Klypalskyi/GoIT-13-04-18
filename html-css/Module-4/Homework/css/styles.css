@@ -6,16 +6,18 @@
 
 body {
   color: #555252;
-  font-size: 0px;
+ /*  font-size: 0px;
   width: 1170px;
   margin: auto;
   display: table;
-  text-align: center;
+  text-align: center; */
 }
 
 
 /* HEADER */
 header {
+  width: 1170px;
+  margin: auto;
   height: auto;
   overflow: hidden;
   text-align: right;
@@ -75,6 +77,12 @@ header {
 
 
 /* FEATURED */
+.gallery {
+  width: 1170px;
+  margin: auto;
+  font-size: 0;
+}
+
 .featured-title {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
@@ -106,8 +114,8 @@ header {
   background-color: #e9f0fd;
 }
 
-.featured-item:nth-child(4n + 4) {
-  margin-right: 0px;
+.featured-item:nth-child(4n) {
+  margin-right: 0;
 }
 
 .featured-item:nth-child(4n + 1) {
@@ -175,6 +183,11 @@ header {
 
 
 /* BLOG */
+.blog {
+width: 1170px;
+margin: auto;
+}
+
 .blog-title {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
