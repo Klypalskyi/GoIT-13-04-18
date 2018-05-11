@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .block-big {
+      width: 400px;
+      height: 400px;
+      background-color: #424242;
+      position: relative;
+  }
+
+  .block-small {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      background-color: rgb(8, 152, 195);
+  }
+
+  .blue {
+      left: 0;
+      top: 0;
+  }
+
+  .indigo {
+      background-color: rgb(2, 90, 53);
+      left: 50%;
+      transform: translate(-50%)
+  }
+
+  .pink {
+      background: rgb(255, 35, 72);
+      right: 0;
+  }
+
+  .brown {
+      background-color: brown;
+      top: 50%;
+      transform: translate(0,-50%)
+  }
+
+  .orange {
+      background-color: orangered;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+  }
+
+  .violet {
+      background-color: violet;
+      right: 0;
+      top: 50%;
+      transform: translate(0,-50%);
+  }
+
+  .green {
+      background-color: green;
+      left: 0;
+      bottom: 0;
+  }
+
+  .yellow {
+      background-color: yellow;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%);
+  }
+
+  .deepblue {
+      background: dodgerblue;
+      right: 0;
+      bottom: 0;
+  }

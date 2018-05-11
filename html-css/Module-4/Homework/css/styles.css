@@ -45,6 +45,10 @@ header {
   color: #1abc9c;
 }
 
+.top {
+  float: right;
+}
+
 .site-nav {
   line-height: 11px;
   list-style: none;
@@ -62,7 +66,9 @@ header {
   text-transform: uppercase;
   list-style: none;
   font-size: 14px;
-  line-height: 11px;
+  line-height: 32px;
+  display: block;
+  float: left;
 }
 
 .site-nav a:hover {
@@ -137,6 +143,7 @@ header {
   color: #fff;
   font-size: 18px;
   line-height: 40px;
+  position: relative;
 }
 
 .featured-item a {
