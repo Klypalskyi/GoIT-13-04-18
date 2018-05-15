@@ -74,13 +74,12 @@ header {
 /* SLIDER */
 .slider {
   position: relative;
-  width: 100vw;
+  
   height: 600px;
 }
 
 .bunner {
   position: absolute;
-  width: 100vw;
   z-index: 1;
   top: 0;
   right: 0;
@@ -90,7 +89,6 @@ header {
 
 .black-bunner {
   position: absolute;
-  width: 100vw;
   z-index: 2;
   background: rgba(0, 0, 0, 0.52);
   top: 0;
@@ -157,7 +155,6 @@ header {
 
 /* NEW COLLECTION */
 .gallery {
-  width: 100vw;
   height: 100vh;
   margin: auto;
   font-size: 0;
@@ -355,19 +352,19 @@ header {
 }
 
 .add:hover {
-  border: 0px;
+  border-color: transparent;
 }
 
 .like:hover {
-  border: 0px;
+  border-color: transparent;
 }
 
 .switch:hover {
-  border: 0px;
+  border-color: transparent;
 }
 
 .clock:hover {
-  border: 0px;
+  border-color: transparent;
 }
 
 main {
@@ -383,7 +380,7 @@ footer {
   text-align: center;
   position: absolute;
   bottom: 0;
-  width: 100vw;
+  width: 1600px;
   font-size: 0;
 }
 
