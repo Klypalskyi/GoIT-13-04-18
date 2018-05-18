@@ -28,7 +28,7 @@
   flex-direction: column;
   border-radius: 6px;
   margin-bottom: 50px;
-  }
+}
 
 .profile > img {
   margin: auto;
@@ -70,12 +70,10 @@
   cursor: pointer;
 }
 
-
 .profile:hover {
   box-shadow: 2px 2px 25px green;
   transition-duration: 1s;
 }
-
 
 .profile img:hover {
   transform: rotateZ(5deg);
@@ -83,11 +81,13 @@
 }
 
 .profile-name:hover {
-transform: scale(1.5,1.5);
-transition-duration: 0.2s; 
-transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
-color: rgb(6, 143, 6);
-transition-duration: 0.3s;
+  transform: scale(1.15, 1.15);
+  transition-duration: 0.2s;
+}
+
+.name-color:hover {
+  color: rgb(6, 143, 6);
+  transition-duration: 0.3s;
 }
 
 .profile-button:hover {
@@ -95,5 +95,3 @@ transition-duration: 0.3s;
   background-color: rgb(22, 0, 148);
   transition-duration: 0.2s;
 }
-
-
