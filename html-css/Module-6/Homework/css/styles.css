@@ -25,7 +25,6 @@ nav a {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 30px;
-  left: 0;
   margin-top: 30px;
 }
 
@@ -304,9 +303,7 @@ footer {
   left: 100%;
   top: 50%;
   transform: translate(-100%, -50%);
-}
-
-.email {
+  margin-bottom: 20px;
 }
 
 .input-button {
@@ -318,6 +315,7 @@ footer {
   font-weight: 800;
   background-color: #95e1d3;
   border: 0;
+  cursor: pointer;
 }
 
 .footer-input-box > form > input {
