@@ -4,50 +4,6 @@
   box-sizing: border-box;
 }
 
-/* montserrat-regular - latin */
-@font-face {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Montserrat Regular"), local("Montserrat-Regular"),
-    url("../fonts/montserrat-v12-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/montserrat-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* montserrat-700 - latin */
-@font-face {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  src: local("Montserrat Bold"), local("Montserrat-Bold"),
-    url("../fonts/montserrat-v12-latin-700.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/montserrat-v12-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* pacifico-regular - latin */
-@font-face {
-  font-family: "Pacifico";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Pacifico Regular"), local("Pacifico-Regular"),
-    url("../fonts/pacifico-v12-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/pacifico-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* redressed-regular - latin */
-@font-face {
-  font-family: "Redressed";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Redressed Regular"), local("Redressed-Regular"),
-    url("../fonts/redressed-v8-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/redressed-v8-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
 /* HEADER */
 header {
   width: 940px;
@@ -190,9 +146,9 @@ main {
 
 /* CONTACT US */
 .wrapper {
-    background-color: #222222;
+  background-color: #222222;
   background-image: url(../img/map-img.png);
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
   background-position: 100% 50%;
   height: 675px;
   position: relative;
@@ -207,12 +163,11 @@ main {
 }
 
 .form-input {
-    
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
   width: 943px;
   height: 211px;
   margin: auto;
@@ -231,38 +186,37 @@ main {
   height: 211px;
 }
 
-.input-txt:valid{
-    outline: 2px solid rgb(4, 197, 4);
+.input-txt:valid {
+  outline: 2px solid rgb(4, 197, 4);
 }
 
 .input-txt:invalid {
-    outline: 2px solid rgb(172, 4, 4);
+  outline: 2px solid rgb(172, 4, 4);
 }
 
 .input-txt {
-    padding-left: 21px;
-  }
+  padding-left: 21px;
+}
 
-  .input-txt::-webkit-input-placeholder {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #bbbbbb;
-  }
+.input-txt::-webkit-input-placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #bbbbbb;
+}
 
-  .right {
-      padding-top: 20px;
-
-  }
+.right {
+  padding-top: 20px;
+}
 
 .submit {
-    position: absolute;
-    left: 50%;
-    top: 528px;
-    transform: translate(-50%);
-    width: 240px;
-    margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 528px;
+  transform: translate(-50%);
+  width: 240px;
+  margin: auto;
 }
 
 .input-button {
@@ -279,4 +233,3 @@ main {
   border-radius: 3px;
   cursor: pointer;
 }
-
