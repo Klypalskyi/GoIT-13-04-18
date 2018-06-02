@@ -1,0 +1,154 @@
+@media (min-width: 20rem) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    min-width: 20rem;
+    max-width: 90rem;
+    margin: auto;
+    text-align: center;
+  }
+
+  .top-wrapper {
+    background-image: url(../img/font1.png);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .login {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7.5rem;
+    
+  }
+
+  .login li {
+    list-style: none;
+    margin: 2rem 1rem 0 1rem;
+  }
+
+  .login a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.875rem;
+    padding: 0.625rem 0.5rem 0.5rem 0.75rem;
+    border: 0.125rem solid transparent;
+    
+  }
+
+  .login a:hover {
+    border: 0.125rem solid #fff;
+    border-radius: 2rem;
+  }
+
+  .logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #fff;
+    letter-spacing: 0.2rem;
+  }
+
+  .logo-box {
+    margin-bottom: 2rem;
+  }
+
+  .holiday-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 20rem;
+    margin: auto;
+  }
+
+  .share {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 1.875rem;
+    text-transform: uppercase;
+    margin-bottom: 1.1875rem;
+  }
+
+  .light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #fff;
+  }
+
+  .undershare {
+    font-size: 1.125rem;
+    width: 67.5%;
+    margin: auto;
+    margin-bottom: 1.2425rem;
+  }
+
+  .find {
+    background: #ff4e50;
+    border: 0;
+    border-radius: 2.5rem;
+    line-height: 2.5rem;
+    width: 87%;
+    margin-bottom: 8.625rem;
+  }
+
+  .find a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 0.875rem;
+    width: inherit;
+    padding: 0.875rem 2.1875rem 0.75rem 2.3125rem;
+  }
+}
+
+@media (min-width: 48rem) {
+  .top-wrapper {
+    background-image: url(../img/font2.png);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    margin: auto;
+  }
+
+  .header {
+      display: flex;
+      flex-direction: row-reverse;
+      
+  }
+
+  .login {
+      margin-bottom: 0;
+      margin
+  }
+
+  .logo-box {
+      margin-bottom: 0;
+  }
+  
+
+/*   .logo {
+      position: absolute;
+      left: 3.0625rem;
+      top: 2.9375rem;
+  } */
+}
+
+@media (min-width: 60rem) {
+  .top-wrapper {
+    background-image: url(../img/font3.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    margin: auto;
+  }
+}

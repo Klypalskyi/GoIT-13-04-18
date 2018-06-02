@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 480px;
+  max-width: 1200px;
+  height: 640px;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.header {
+  flex-basis: 100%;
+  background-color: yellow;
+  margin-bottom: 5px;
+}
+
+.blue {
+  flex-basis: 54.16%;
+  background-color: blue;
+}
+
+.gray {
+  flex-basis: 20.83%;
+  background-color: gray;
+}
+
+.orange {
+  flex-basis: 20.83%;
+  background-color: orangered;
+}
+
+.footer {
+  margin-top: 5px;
+  flex-basis: 100%;
+  background-color: green;
+}
