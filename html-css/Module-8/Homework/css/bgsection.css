@@ -22,16 +22,18 @@
     flex-wrap: wrap;
   }
 
+  .header {
+    margin: 2rem 1rem 0 1rem;
+  }
+
   .login {
     display: flex;
     justify-content: center;
     margin-bottom: 7.5rem;
-    
   }
 
   .login li {
     list-style: none;
-    margin: 2rem 1rem 0 1rem;
   }
 
   .login a {
@@ -41,7 +43,6 @@
     font-size: 0.875rem;
     padding: 0.625rem 0.5rem 0.5rem 0.75rem;
     border: 0.125rem solid transparent;
-    
   }
 
   .login a:hover {
@@ -109,46 +110,73 @@
     color: #fff;
     font-size: 0.875rem;
     width: inherit;
-    padding: 0.875rem 2.1875rem 0.75rem 2.3125rem;
   }
 }
 
 @media (min-width: 48rem) {
   .top-wrapper {
-    background-image: url(../img/font2.png);
+    background: #1a1915 url(../img/font2.png);
     background-repeat: no-repeat;
     background-position: center 0;
+    background-size: cover;
     margin: auto;
+    max-width: 48rem;
   }
 
   .header {
-      display: flex;
-      flex-direction: row-reverse;
-      
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 2.9375rem 4.1875rem 10.0625rem 3.0625rem;
   }
 
   .login {
-      margin-bottom: 0;
-      margin
+    margin-bottom: 0;
   }
 
   .logo-box {
-      margin-bottom: 0;
+    margin-bottom: 0;
   }
-  
 
-/*   .logo {
-      position: absolute;
-      left: 3.0625rem;
-      top: 2.9375rem;
-  } */
+  .holiday-wrapper {
+    max-width: 48rem;
+  }
+
+  .share {
+    font-size: 3.25rem;
+    margin-bottom: 2.625rem;
+    width: 70%;
+  }
+
+  .undershare {
+    font-size: 1.5rem;
+    margin-bottom: 2.25rem;
+    width: 100%;
+  }
+
+  .find {
+    max-width: 29.43%;
+    margin-bottom: 14.5625rem;
+  }
 }
 
 @media (min-width: 60rem) {
   .top-wrapper {
-    background-image: url(../img/font3.jpg);
+    background: url(../img/font3.jpg);
     background-repeat: no-repeat;
     background-position: center 0;
+    max-width: 90rem;
     margin: auto;
+    background-size: cover;
+    }
+
+  .header {
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    max-width: 65%;
+    margin: 3.1875rem 1.4375rem 10.21875rem 0rem;
   }
 }

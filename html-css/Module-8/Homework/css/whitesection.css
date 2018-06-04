@@ -17,9 +17,14 @@
   }
 
   .partner {
-    max-width: 12.28125rem;
+    max-width: 13.586875rem;
     margin: auto;
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 1.8125rem;
   }
 
   .img-wrapper {
@@ -34,31 +39,37 @@
   }
 
   .icon {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0.4rem;
+  }
+
+  .icon-wrapper {
     position: absolute;
+    width: 2rem;
+    height: 2rem;
     bottom: 0;
     right: 0;
     border: 0.25rem solid #fff;
-    border-radius: 1.1rem;
+    border-radius: 50%;
   }
 
   .tv {
     background-color: #ff4e50;
-    padding: 0.4375rem 0.5rem 0.5625rem 0.479375rem;
   }
 
   .alch {
     background-color: #ffa507;
-    padding: 0.50375rem 0.605625rem 0.51875rem 0.645rem;
   }
 
   .cup {
     background-color: #1cd7ad;
-    padding: 0.49rem 0.5rem 0.55625rem 0.498125rem;
   }
 
   .plane {
     background-color: #4e73db;
-    padding: 0.605625rem 0.614375rem 0.478125rem 0.408125rem;
   }
 
   .name {
@@ -72,7 +83,6 @@
   .partner-info {
     color: #666666;
     font-size: 0.873125rem;
-    margin-bottom: 1.8125rem;
   }
 
   .see-other {
@@ -85,6 +95,11 @@
     cursor: pointer;
   }
 
+  .see-other:hover {
+    background: #ff4e50;
+    border: 0.125rem solid transparent;
+  }
+
   .see-other a {
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
@@ -93,10 +108,60 @@
     font-size: 0.875rem;
     padding: 0.75rem 3.625rem 0.625rem;
   }
+
+  .see-other a:hover {
+    color: #fff;
+  }
 }
 
 @media (min-width: 48rem) {
+  .bot-wrapper {
+    max-width: 48rem;
+  }
+
+  .meet {
+    margin-top: 4.5625rem;
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .partner-list {
+    width: 61.66%;
+    height: 30.75rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin: auto;
+    font-size: 0;
+    margin-bottom: 1.8125rem;
+  }
+  
+  .partner {
+    margin: 0;
+    margin-bottom: 3.75rem;
+    }
+    
+  .partner-list :nth-child(even) {
+    margin: 0;
+  }
+
+  .see-other {
+    max-width: 25%;
+    margin-bottom: 2.46875rem;
+  }
+
+  .see-other a{
+    padding: 0.8125rem 1.75rem 0.65625rem;
+  }
 }
 
 @media (min-width: 60rem) {
+.bot-wrapper {
+  max-width: 60rem;
+}
+.partner-list {
+  width: 60rem;
+  height: 14.625rem;
+}
 }
