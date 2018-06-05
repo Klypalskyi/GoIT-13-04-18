@@ -115,7 +115,7 @@
 
 @media (min-width: 48rem) {
   .top-wrapper {
-    background: #1a1915 url(../img/font2.png);
+    background-image: linear-gradient(rgba(26,25,21,0.2), rgba(26,25,21,0.2)), url(../img/font2.png);
     background-repeat: no-repeat;
     background-position: center 0;
     background-size: cover;
@@ -163,7 +163,7 @@
 
 @media (min-width: 60rem) {
   .top-wrapper {
-    background: url(../img/font3.jpg);
+    background-image: linear-gradient(rgba(26,25,21,0.2), rgba(26,25,21,0.2)), url(../img/font3.jpg);
     background-repeat: no-repeat;
     background-position: center 0;
     max-width: 90rem;
