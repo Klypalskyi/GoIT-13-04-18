@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    background: rgb(207, 238, 94);
+    text-align: center;
+    line-height: 300px;
+}
+
+.sidebar {
+    background: rgb(214, 13, 13);
+    text-align: center;
+    line-height: 300px;
+}

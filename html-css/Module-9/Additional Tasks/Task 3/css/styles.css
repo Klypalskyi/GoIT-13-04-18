@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.yellow {
+    background: rgb(236, 238, 94);
+    text-align: center;
+    line-height: 100px;
+}
+
+.pink {
+    background: rgb(233, 111, 111);
+    text-align: center;
+    line-height: 100px;
+}
+
+.orange,
+.green {
+    text-align: center;
+    line-height: 300px;
+}
+
+.orange {
+    background: rgb(255, 170, 58);
+}
+
+.green {
+    background: rgb(32, 160, 0);
+}
