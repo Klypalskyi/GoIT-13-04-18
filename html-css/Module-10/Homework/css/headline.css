@@ -1,0 +1,47 @@
+.headline {
+text-align: center;
+}
+
+.headline__desc {
+    font-family: 'Kaushan Script', sans-serif;
+    color: #fff;
+    font-size: 4.5rem;
+    padding-bottom: 2.65625rem;
+}
+
+.headline__subject {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 9.375rem;
+    color: #fff;
+}
+
+.headline__button {
+    background: transparent;
+    border: 0.1875rem solid #fff;
+    padding: 0.75rem 0;
+    margin-bottom: 14.375rem;
+    cursor: pointer;
+}
+
+.headline__button:hover {
+    background: #fff;
+    border:  0.1875rem solid transparent;
+    transition: 200ms;
+    transition-timing-function: linear;
+}
+
+.headline__link {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    color: #fff;
+    padding: 0.75rem 1.875rem;
+}
+
+.headline__link:hover {
+    color: #efc788;
+}
+

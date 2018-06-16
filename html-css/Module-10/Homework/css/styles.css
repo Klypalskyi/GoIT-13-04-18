@@ -1,0 +1,23 @@
+@import "container-body-top.css";
+
+@import "header.css";
+
+@import "headline.css";
+
+@import "fonts.css";
+
+@import "container-body-bot.css";
+
+@import "bot-titles.css";
+
+@import "services.css";
+
+@import "team.css";
+
+@import "footer.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
