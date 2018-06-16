@@ -1,14 +1,22 @@
 .footer {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "ft fi";
-  box-shadow: 0 -2px 0 #e5e5e5;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "ft fi";
+  -webkit-box-shadow: 0 -2px 0 #e5e5e5;
+          box-shadow: 0 -2px 0 #e5e5e5;
   height: 3.8125rem;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer__text-box {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
   grid-area: ft;
   font-family: "Montserrat", sans-serif;
   font-size: 0.875rem;
@@ -21,9 +29,15 @@
 }
 
 .footer__input-box {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
   grid-area: fi;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   }
 
 .footer__input-button {

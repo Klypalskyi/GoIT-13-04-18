@@ -1,13 +1,19 @@
 .container__body--top {
     width: 100vw;
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(243, 129, 129, 0.9)),to(rgba(252, 227, 138, 0.9))), url(../img/bird.png);
+    background-image: -webkit-linear-gradient(rgba(243, 129, 129, 0.9),rgba(252, 227, 138, 0.9)), url(../img/bird.png);
+    background-image: -o-linear-gradient(rgba(243, 129, 129, 0.9),rgba(252, 227, 138, 0.9)), url(../img/bird.png);
     background-image: linear-gradient(rgba(243, 129, 129, 0.9),rgba(252, 227, 138, 0.9)), url(../img/bird.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
     .container__body--top {
+        background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(243, 129, 129, 0.9)),to(rgba(252, 227, 138, 0.9))), url(../img/bird@2x.png);
+        background-image: -webkit-linear-gradient(rgba(243, 129, 129, 0.9),rgba(252, 227, 138, 0.9)), url(../img/bird@2x.png);
+        background-image: -o-linear-gradient(rgba(243, 129, 129, 0.9),rgba(252, 227, 138, 0.9)), url(../img/bird@2x.png);
         background-image: linear-gradient(rgba(243, 129, 129, 0.9),rgba(252, 227, 138, 0.9)), url(../img/bird@2x.png);
     }
 }
