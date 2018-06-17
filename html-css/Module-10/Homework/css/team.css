@@ -2,6 +2,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -14,9 +15,9 @@
 
 .team__img-background {
   background-color: #95e1d3;
-  max-width: 380px;
-  max-height: 470px;
-  margin-bottom: 30px;
+  max-width: 23.75rem;
+  max-height: 29.375rem;
+  margin-bottom: 1.875rem;
 }
 
 .team__social {
