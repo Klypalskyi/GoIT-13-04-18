@@ -1,0 +1,40 @@
+.footer {
+  padding: rem(80) 0;
+
+  &__title {
+    color: $footerTitleColor;
+    font-family: $fontFamily;
+    font-size: $titleFontSize;
+    margin-bottom: rem(16);
+    text-transform: capitalize;
+    font-weight: 700;
+  }
+
+  &__column {
+    margin-bottom: rem(52);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+
+    &__column {
+      flex-basis: 48%;
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    &__title {
+      font-size: 2rem;
+    }
+  }
+}

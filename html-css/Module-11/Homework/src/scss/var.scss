@@ -1,0 +1,46 @@
+@function rem($px) {
+  $result: $px / 16;
+  @return #{$result}rem;
+}
+
+@function prc($el, $container) {
+  $result: $el / $container * 100%;
+  @return #{$result};
+}
+
+$whiteText: #fff;
+$grayText: #999;
+$smallTextSize: rem(14);
+$bigTitleSize: rem(150);
+$sizeLogo: rem(30);
+
+@mixin gray-text {
+  font-family: "Roboto", sans-serif;
+  font-size: rem(15);
+  color: $grayText;
+}
+
+@mixin logo {
+  font-family: "Montserrat", sans-serif;
+  font-size: $sizeLogo;
+  font-weight: 700;
+  text-decoration: none;
+  color: $whiteText;
+  padding-bottom: rem(12);
+}
+
+@mixin nav {
+  font-family: "Montserrat", sans-serif;
+  font-size: $smallTextSize;
+  text-decoration: none;
+  color: $whiteText;
+  text-transform: uppercase;
+  padding-bottom: rem(12);
+}
+
+@mixin title {
+  font-family: "Kaushan Script", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 2.875rem;
+  padding-bottom: 1.375rem;
+}

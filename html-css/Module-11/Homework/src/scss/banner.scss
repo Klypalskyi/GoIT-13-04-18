@@ -1,0 +1,53 @@
+.banner {
+  text-align: center;
+  max-width: 65rem;
+  margin: auto;
+
+  &__desc {
+    font-family: "Kaushan Script", sans-serif;
+    color: #fff;
+    font-size: 4.5rem;
+    margin-bottom: 2.65625rem;
+  }
+
+  &__subject {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 9.375rem;
+    color: #fff;
+    word-wrap: break-word;
+  }
+
+  &__button {
+    background: transparent;
+    border: 0.1875rem solid #fff;
+    padding: 0.75rem 0;
+    margin-bottom: 14.375rem;
+    cursor: pointer;
+  }
+
+  &__button:hover {
+    background: #fff;
+    border: 0.1875rem solid transparent;
+    -webkit-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    color: #fff;
+    padding: 0.75rem 1.875rem;
+  }
+
+  &__link:hover {
+    color: #efc788;
+  }
+}

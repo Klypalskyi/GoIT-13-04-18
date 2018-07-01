@@ -1,0 +1,21 @@
+.banner {
+  padding: rem(70) 0;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2.625rem;
+  font-family: $fontFamily;
+}
+
+@media (min-width: 1024px) {
+  .banner {
+    padding: rem(176) 0;
+  }
+
+  .title {
+    font-size: 3.875rem;
+  }
+}
