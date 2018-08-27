@@ -3,35 +3,27 @@
 const passwords = ['qwerty', '111qwe', '123123', 'r4nd0mp4zzw0rd'];
 let attempts = 3;
 let userInput;
-let userPass = false;
+let userPass;
 
-do {
-    if (userPass === true) {
+
+while ( userPass !== false || userInput !== null  && attempts !== 0) {
+    if ( userInput === null) {
+        alert ('Всего хорошего!');
         break;
     }
     console.log(attempts);
     userInput = prompt ('Введите пароль');
     attempts -= 1;
-    if ( userInput === null) {
-        alert ('Всего хорошего!');
-        break;
-    }
-
-    for (let pass of passwords) {
-        if (userInput === pass) {
-            userPass = true;
+    if (userInput !== null) {
+        userPass = passwords.includes(userInput);
+        if (userPass === true) {
             alert ('Добро пожаловать!');
             break;
-        }  else if (userInput !== pass) {
-            if (attempts === 0) {
-                alert ('У вас закончились попытки, аккаунт заблокирован!');
-                break;
-            }
-            alert(`Неверный пароль, у вас осталось ${attempts} попыток`);
-            break;
-        }
-    } 
-} while (
-    userPass !== false 
-    || userInput !== null 
-    && attempts !== 0);
+        } else if (attempts === 0) {
+        alert ('У вас закончились попытки, аккаунт заблокирован!');
+        break;
+    } else {
+    alert(`Неверный пароль, у вас осталось ${attempts} попыток`);
+    }
+}
+}
