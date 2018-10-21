@@ -82,3 +82,30 @@
 //     box.classList.add('box');
 //     frag.append(box);
 // }
+
+// ================BOM AND GPS=====================
+// console.log(navigator);
+// console.log(navigator.userAgent);
+// console.log(navigator.vendor);
+// console.log(window.screen);
+// console.log(window.screen.availWidth);
+// console.log(window.screen.availHeight);
+// console.log(location)
+// console.log(history)
+
+// function showLocation(position) {
+//     // console.log(position)
+//     let latitude = position.coords.latitude;
+//     let longitude = position.coords.longitude;
+//     alert ('Latitude :' + latitude + 'Longitude :' + longitude);
+// }
+
+// function getLocation () {
+//     if(navigator.geolocation) {
+//         navigator.geolocation.getCurrentPosition(showLocation, errorHandler);
+//     } else {
+//         alert ("Sorry, browser doesn't support" )
+//     }
+// }
+
+// 
