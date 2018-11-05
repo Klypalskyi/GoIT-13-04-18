@@ -47,12 +47,11 @@ function Cashier(name, productDatabase) {
 		return this.totalOrderItem;
 	};
 	this.countChange = function(totalPrice) {
-		if (this.customerMoney > this.totalOrderItem) {
 			if (this.customerMoney >= this.totalOrderItem) {
 				totalPrice = this.customerMoney - this.totalOrderItem;
 				return this.onSuccess(totalPrice);
 			}
-		} else {
+		 else {
 			return this.onError();
 		}
 	};

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #333333;
+  }
+
+.timerBox {
+    max-width: 65%;
+    text-align: center;
+    /* margin: 250px auto; */
+    color: #fff;
+   
+    font-size: 48px;
+}
+
+button {
+    padding: 6px;
+    margin: 3px;
+    font-size: 24px;
+    text-transform: uppercase;
+    background: #fff;
+    border: 0;
+    cursor: pointer;
+    outline-color: #fff;
+}
+
+button:hover {
+    background: rgb(255, 173, 20);
+}
