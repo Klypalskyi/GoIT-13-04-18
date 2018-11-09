@@ -11,13 +11,13 @@
 .timerBox {
     max-width: 65%;
     text-align: center;
-    /* margin: 250px auto; */
+    margin: 50px auto;
     color: #fff;
    
     font-size: 48px;
 }
 
-button {
+.btn {
     padding: 6px;
     margin: 3px;
     font-size: 24px;
@@ -26,8 +26,30 @@ button {
     border: 0;
     cursor: pointer;
     outline-color: #fff;
+    color: #333333;
 }
 
-button:hover {
+.btn:hover {
     background: rgb(255, 173, 20);
+    color: #fff;
+}
+
+
+.laps {
+    max-width: 20%;
+    margin: auto;
+    list-style: none;
+}
+
+.lapRow {
+    color: #333333;
+    font-weight: bold;
+    font-size: 24px;
+    background: rgb(255, 173, 20);
+    margin-bottom: 2px;
+}
+
+.stopwatch {
+    padding: 2px 0 10px;
+    border: ridge 2px rgb(255, 173, 20);
 }
