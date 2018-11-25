@@ -1,0 +1,41 @@
+form {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    min-width: 10%;
+    height: max-content;
+}
+
+
+img {
+    width: 50%;
+}
+
+
+.ll {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+}
+
+.card {
+    max-width: 30%;
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: 6px 2px 20px #9c9999;
+}
+
+.card:hover {
+    box-shadow: 6px 2px 20px #049746;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transition-duration: 800ms;
+}
