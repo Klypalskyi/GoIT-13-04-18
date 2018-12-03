@@ -152,4 +152,3 @@ function clearFilter () {
   });
   laptopList.innerHTML = mkup;
 }
-
