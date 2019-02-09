@@ -4,6 +4,7 @@ const addButton = document.querySelector(".bookmark-add__button");
 const container = document.querySelector(".bookmarks__container");
 const input = document.querySelector(".bookmark__input");
 const urlListWrap = document.querySelector(".bookmarks__list");
+const apiURL = `http://api.linkpreview.net/?key=5c0ec3951f29a3841efb99d3cff44808cbc5e20853a54&q=`;
 
 const LOCALSTORAGE = (w => {
     if (!w) return;
@@ -94,11 +95,20 @@ function handleAddBookmark(e) {
 }
 
 function createMarkup(list) {
-    urlListWrap.innerHTML = "";
-    const source = document.querySelector("#bookmark__template").innerHTML.trim();
-    const template = Handlebars.compile(source);
-    const markup = list.reduce((acc, bookmark) => acc + template(bookmark), "");
-    urlListWrap.insertAdjacentHTML("beforeend", markup);
+    // urlListWrap.innerHTML = "";
+    fetch(`${apiURL}${input.value}`)
+    .then(res => {
+        if (res.ok) return res.json()
+        throw new Error('Err')
+      })
+      .then(data => {console.log(data)
+      })
+      .catch(err => console.log(err))
+    // const source = document.querySelector("#bookmark__template").innerHTML.trim();
+    // const template = Handlebars.compile(source);
+
+    // const markup = list.reduce((acc, bookmark) => acc + template(bookmark), "");
+    // urlListWrap.insertAdjacentHTML("beforeend", markup);
 }
 
 function handleRemoveBookmark(e) {
